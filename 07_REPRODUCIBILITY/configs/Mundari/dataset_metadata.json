@@ -1,0 +1,20 @@
+{
+  "experiment": "Gemma 3-4B | Mundari -> Hindi",
+  "model": "google/gemma-3-4b-it",
+  "source_language": "Mundari",
+  "target_language": "Hindi",
+  "dataset_path": "/kaggle/input/datasets/hsiiestiitd27/eng-hin-tri/eng-hin-tri_new/eng-hin-tri_new/Mundari_new.xlsx",
+  "original_rows": 154374,
+  "source_nulls": 14,
+  "target_nulls": 0,
+  "empty_pairs_removed": 0,
+  "duplicate_translation_pairs_removed": 235,
+  "clean_rows": 154125,
+  "split_seed": 42,
+  "train_rows": 138712,
+  "validation_rows": 7706,
+  "test_rows": 7707,
+  "train_ratio": 0.9,
+  "validation_ratio": 0.05,
+  "test_ratio": 0.05
+}

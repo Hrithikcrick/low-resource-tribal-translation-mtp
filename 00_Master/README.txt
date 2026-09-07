@@ -1,0 +1,30 @@
+﻿MTP FINAL EXPERIMENT STATUS
+
+TARGET:
+2 models x 3 languages = 6 experiments
+
+MODEL 1 — GEMMA 3-4B
+
+Bhili    COMPLETE
+Mundari  COMPLETE
+Gondi    COMPLETE
+
+MODEL 2 — SARVAM TRANSLATE
+
+Bhili    PENDING
+Mundari  PENDING
+Gondi    PENDING
+
+CURRENT PROGRESS
+
+Experiments complete = 3 / 6
+
+Gemma metrics complete = 9 / 9
+
+MASTER RESULTS
+
+MTP_FINAL_RESULTS.csv
+
+REPRODUCIBILITY
+
+../07_REPRODUCIBILITY/

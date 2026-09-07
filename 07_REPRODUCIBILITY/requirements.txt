@@ -1,0 +1,20 @@
+﻿# Proven Gemma / QLoRA stack used in the experiments
+
+transformers==4.54.0
+huggingface-hub==0.34.4
+tokenizers==0.21.4
+peft==0.16.0
+trl==0.19.1
+bitsandbytes==0.46.1
+sacrebleu==2.5.1
+unbabel-comet
+sentencepiece
+datasets
+pandas
+scikit-learn
+
+# Kaggle runtime observed:
+# torch==2.10.0+cu128
+#
+# GPU:
+# 2 x NVIDIA Tesla T4

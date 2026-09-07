@@ -1,0 +1,17 @@
+﻿*.zip
+_OLD_OR_DEBUG/
+**/_OLD_OR_DEBUG/
+*INFERENCE_PROGRESS*
+*RAW_BACKUP*
+*REPAIRED*
+*PROGRESS.csv
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.env
+*.env
+*token*
+*credential*
+Thumbs.db
+.DS_Store

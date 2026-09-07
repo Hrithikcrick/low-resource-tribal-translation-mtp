@@ -1,0 +1,82 @@
+﻿{
+  "base_model": "google/gemma-3-4b-it",
+
+  "task": "Low-resource language to Hindi translation",
+
+  "languages": [
+    "Bhili",
+    "Mundari",
+    "Gondi"
+  ],
+
+  "data_split": {
+    "train": 0.90,
+    "validation": 0.05,
+    "test": 0.05,
+    "seed": 42
+  },
+
+  "training": {
+    "method": "QLoRA",
+    "max_steps": 500,
+    "learning_rate": 0.0001,
+    "warmup_ratio": 0.03,
+    "per_device_train_batch_size": 1,
+    "gradient_accumulation_steps": 4,
+    "max_length": 192,
+    "optimizer": "paged_adamw_8bit",
+    "fp16": true,
+    "bf16": false
+  },
+
+  "quantization": {
+    "load_in_4bit": true,
+    "quant_type": "nf4",
+    "double_quant": true,
+    "training_compute_dtype": "float16"
+  },
+
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "bias": "none",
+    "task_type": "CAUSAL_LM",
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+
+  "inference": {
+    "padding_side": "left",
+    "use_cache": true,
+    "batch_per_gpu": 8,
+    "number_of_gpus": 2,
+    "max_new_tokens": 128,
+    "do_sample": false,
+    "bnb_compute_dtype": "float32",
+    "attention_implementation": "eager"
+  },
+
+  "metrics": {
+    "spBLEU": {
+      "library": "sacrebleu",
+      "tokenizer": "flores200"
+    },
+
+    "ChrF++": {
+      "library": "sacrebleu",
+      "word_order": 2
+    },
+
+    "COMET": {
+      "model": "Unbabel/wmt22-comet-da"
+    }
+  }
+}

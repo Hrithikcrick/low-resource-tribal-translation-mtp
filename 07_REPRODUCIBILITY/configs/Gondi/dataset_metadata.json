@@ -1,0 +1,19 @@
+{
+  "experiment": "Gemma 3-4B | Gondi -> Hindi",
+  "model": "google/gemma-3-4b-it",
+  "dataset_path": "/kaggle/input/datasets/hsiiestiitd27/eng-hin-tri/eng-hin-tri_new/eng-hin-tri_new/Gondi_new.xlsx",
+  "source_language": "Gondi",
+  "target_language": "Hindi",
+  "source_column": "Gondi",
+  "target_column": "Hindi",
+  "original_rows": 105525,
+  "source_nulls": 0,
+  "target_nulls": 0,
+  "empty_pairs_removed": 0,
+  "duplicate_translation_pairs_removed": 4,
+  "clean_rows": 105521,
+  "split_seed": 42,
+  "train_rows": 94968,
+  "validation_rows": 5276,
+  "test_rows": 5277
+}

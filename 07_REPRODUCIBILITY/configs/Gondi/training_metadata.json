@@ -1,0 +1,18 @@
+{
+  "experiment": "Gemma 3-4B | Gondi -> Hindi",
+  "model": "google/gemma-3-4b-it",
+  "training_examples": 94968,
+  "validation_examples": 5276,
+  "test_examples": 5277,
+  "max_steps": 500,
+  "learning_rate": 0.0001,
+  "warmup_ratio": 0.03,
+  "max_length": 192,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "seed": 42,
+  "global_step": 500,
+  "training_loss": 9.151571166038513,
+  "training_minutes": 29.320635203520457
+}
