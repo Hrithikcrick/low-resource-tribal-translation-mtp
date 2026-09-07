@@ -1,0 +1,112 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#12002b"/>
+<stop offset="35%" stop-color="#38106b"/>
+<stop offset="70%" stop-color="#005f73"/>
+<stop offset="100%" stop-color="#0a9396"/>
+</linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#ffb703"/>
+<stop offset="50%" stop-color="#fb8500"/>
+<stop offset="100%" stop-color="#ff006e"/>
+</linearGradient>
+<filter id="glow">
+<feGaussianBlur stdDeviation="5" result="blur"/>
+<feMerge>
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+</defs>
+<rect width="1200" height="420" rx="32" fill="url(#bg)"/>
+<g opacity="0.85">
+<polygon points="0,0 40,0 20,35" fill="#ffb703"/>
+<polygon points="40,0 80,0 60,35" fill="#fb8500"/>
+<polygon points="80,0 120,0 100,35" fill="#ff006e"/>
+<polygon points="120,0 160,0 140,35" fill="#8338ec"/>
+<polygon points="160,0 200,0 180,35" fill="#3a86ff"/>
+<polygon points="1000,0 1040,0 1020,35" fill="#3a86ff"/>
+<polygon points="1040,0 1080,0 1060,35" fill="#8338ec"/>
+<polygon points="1080,0 1120,0 1100,35" fill="#ff006e"/>
+<polygon points="1120,0 1160,0 1140,35" fill="#fb8500"/>
+<polygon points="1160,0 1200,0 1180,35" fill="#ffb703"/>
+</g>
+<g fill="none" stroke="#8ecae6" stroke-width="2" opacity="0.55">
+<path d="M110 125 C250 55 330 180 475 120" stroke-dasharray="12 10">
+<animate attributeName="stroke-dashoffset" from="0" to="-100" dur="3s" repeatCount="indefinite"/>
+</path>
+<path d="M725 120 C860 180 950 55 1090 125" stroke-dasharray="12 10">
+<animate attributeName="stroke-dashoffset" from="0" to="100" dur="3s" repeatCount="indefinite"/>
+</path>
+<path d="M130 300 C300 220 380 360 510 300" stroke-dasharray="8 12">
+<animate attributeName="stroke-dashoffset" from="0" to="-100" dur="4s" repeatCount="indefinite"/>
+</path>
+<path d="M690 300 C820 360 920 220 1070 300" stroke-dasharray="8 12">
+<animate attributeName="stroke-dashoffset" from="0" to="100" dur="4s" repeatCount="indefinite"/>
+</path>
+</g>
+<g filter="url(#glow)">
+<rect x="515" y="115" width="170" height="170" rx="28" fill="#090019" stroke="url(#gold)" stroke-width="5"/>
+<rect x="545" y="145" width="110" height="110" rx="17" fill="#240046" stroke="#00f5d4" stroke-width="2"/>
+<text x="600" y="215" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="52" font-weight="800" fill="#ffffff">AI</text>
+</g>
+<g stroke="#00f5d4" stroke-width="5">
+<line x1="535" y1="115" x2="535" y2="92"/>
+<line x1="570" y1="115" x2="570" y2="92"/>
+<line x1="630" y1="115" x2="630" y2="92"/>
+<line x1="665" y1="115" x2="665" y2="92"/>
+<line x1="535" y1="285" x2="535" y2="308"/>
+<line x1="570" y1="285" x2="570" y2="308"/>
+<line x1="630" y1="285" x2="630" y2="308"/>
+<line x1="665" y1="285" x2="665" y2="308"/>
+</g>
+<g font-family="Noto Sans Devanagari,Segoe UI,sans-serif" font-weight="700">
+<circle cx="180" cy="120" r="45" fill="#ff006e" opacity="0.9">
+<animate attributeName="r" values="42;49;42" dur="2.4s" repeatCount="indefinite"/>
+</circle>
+<text x="180" y="132" text-anchor="middle" font-size="31" fill="white">भि</text>
+<circle cx="330" cy="265" r="45" fill="#8338ec" opacity="0.9">
+<animate attributeName="r" values="45;51;45" dur="3s" repeatCount="indefinite"/>
+</circle>
+<text x="330" y="277" text-anchor="middle" font-size="31" fill="white">मुं</text>
+<circle cx="1020" cy="120" r="45" fill="#fb8500" opacity="0.9">
+<animate attributeName="r" values="42;49;42" dur="2.7s" repeatCount="indefinite"/>
+</circle>
+<text x="1020" y="132" text-anchor="middle" font-size="31" fill="white">गों</text>
+<circle cx="870" cy="265" r="45" fill="#219ebc" opacity="0.9">
+<animate attributeName="r" values="45;51;45" dur="3.3s" repeatCount="indefinite"/>
+</circle>
+<text x="870" y="277" text-anchor="middle" font-size="31" fill="white">हि</text>
+</g>
+<text x="600" y="355" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="39" font-weight="800" fill="white">
+Low-Resource Tribal Language Translation
+</text>
+<text x="600" y="390" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="19" fill="#caf0f8">
+Bhili • Mundari • Gondi  →  Hindi   |   QLoRA • LLMs • NLP
+</text>
+<g fill="#00f5d4" filter="url(#glow)">
+<circle cx="470" cy="120" r="6">
+<animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" repeatCount="indefinite"/>
+</circle>
+<circle cx="730" cy="120" r="6">
+<animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite"/>
+</circle>
+<circle cx="505" cy="300" r="6">
+<animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" repeatCount="indefinite"/>
+</circle>
+<circle cx="695" cy="300" r="6">
+<animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/>
+</circle>
+</g>
+<g opacity="0.8">
+<polygon points="0,420 45,420 22,385" fill="#3a86ff"/>
+<polygon points="45,420 90,420 67,385" fill="#8338ec"/>
+<polygon points="90,420 135,420 112,385" fill="#ff006e"/>
+<polygon points="135,420 180,420 157,385" fill="#fb8500"/>
+<polygon points="1020,420 1065,420 1042,385" fill="#fb8500"/>
+<polygon points="1065,420 1110,420 1087,385" fill="#ff006e"/>
+<polygon points="1110,420 1155,420 1132,385" fill="#8338ec"/>
+<polygon points="1155,420 1200,420 1177,385" fill="#3a86ff"/>
+</g>
+</svg>

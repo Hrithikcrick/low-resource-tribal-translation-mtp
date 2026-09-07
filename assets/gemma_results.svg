@@ -1,0 +1,78 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="440" viewBox="0 0 1100 440">
+<defs>
+<linearGradient id="resultbg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#03071e"/>
+<stop offset="100%" stop-color="#370617"/>
+</linearGradient>
+<linearGradient id="bar1" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#00f5d4"/>
+<stop offset="100%" stop-color="#3a86ff"/>
+</linearGradient>
+<linearGradient id="bar2" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#ffbe0b"/>
+<stop offset="100%" stop-color="#fb5607"/>
+</linearGradient>
+<linearGradient id="bar3" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#8338ec"/>
+<stop offset="100%" stop-color="#ff006e"/>
+</linearGradient>
+</defs>
+<rect width="1100" height="440" rx="28" fill="url(#resultbg)"/>
+<text x="550" y="55" text-anchor="middle" font-family="Segoe UI,Arial" font-size="30" font-weight="800" fill="white">
+Gemma 3-4B • Translation Results
+</text>
+<rect x="55" y="90" width="310" height="285" rx="24" fill="#161a35" stroke="#00f5d4" stroke-width="2"/>
+<text x="210" y="135" text-anchor="middle" font-family="Segoe UI,Arial" font-size="25" font-weight="700" fill="#00f5d4">BHILI → HINDI</text>
+<text x="85" y="190" font-family="Segoe UI,Arial" font-size="17" fill="white">spBLEU</text>
+<rect x="165" y="173" width="0" height="21" rx="10" fill="url(#bar1)">
+<animate attributeName="width" from="0" to="155" dur="1.4s" fill="freeze"/>
+</rect>
+<text x="330" y="190" text-anchor="end" font-family="Segoe UI,Arial" font-size="17" font-weight="700" fill="white">23.2592</text>
+<text x="85" y="245" font-family="Segoe UI,Arial" font-size="17" fill="white">ChrF++</text>
+<rect x="165" y="228" width="0" height="21" rx="10" fill="url(#bar2)">
+<animate attributeName="width" from="0" to="155" dur="1.7s" fill="freeze"/>
+</rect>
+<text x="330" y="245" text-anchor="end" font-family="Segoe UI,Arial" font-size="17" font-weight="700" fill="white">46.5085</text>
+<text x="85" y="300" font-family="Segoe UI,Arial" font-size="17" fill="white">COMET</text>
+<rect x="165" y="283" width="0" height="21" rx="10" fill="url(#bar3)">
+<animate attributeName="width" from="0" to="155" dur="2s" fill="freeze"/>
+</rect>
+<text x="330" y="300" text-anchor="end" font-family="Segoe UI,Arial" font-size="17" font-weight="700" fill="white">0.6513</text>
+<rect x="395" y="90" width="310" height="285" rx="24" fill="#161a35" stroke="#ffbe0b" stroke-width="2"/>
+<text x="550" y="135" text-anchor="middle" font-family="Segoe UI,Arial" font-size="25" font-weight="700" fill="#ffbe0b">MUNDARI → HINDI</text>
+<text x="425" y="190" font-family="Segoe UI,Arial" font-size="17" fill="white">spBLEU</text>
+<rect x="505" y="173" width="0" height="21" rx="10" fill="url(#bar1)">
+<animate attributeName="width" from="0" to="121" dur="1.4s" fill="freeze"/>
+</rect>
+<text x="670" y="190" text-anchor="end" font-family="Segoe UI,Arial" font-size="17" font-weight="700" fill="white">18.1019</text>
+<text x="425" y="245" font-family="Segoe UI,Arial" font-size="17" fill="white">ChrF++</text>
+<rect x="505" y="228" width="0" height="21" rx="10" fill="url(#bar2)">
+<animate attributeName="width" from="0" to="107" dur="1.7s" fill="freeze"/>
+</rect>
+<text x="670" y="245" text-anchor="end" font-family="Segoe UI,Arial" font-size="17" font-weight="700" fill="white">32.0983</text>
+<text x="425" y="300" font-family="Segoe UI,Arial" font-size="17" fill="white">COMET</text>
+<rect x="505" y="283" width="0" height="21" rx="10" fill="url(#bar3)">
+<animate attributeName="width" from="0" to="134" dur="2s" fill="freeze"/>
+</rect>
+<text x="670" y="300" text-anchor="end" font-family="Segoe UI,Arial" font-size="17" font-weight="700" fill="white">0.5645</text>
+<rect x="735" y="90" width="310" height="285" rx="24" fill="#161a35" stroke="#ff006e" stroke-width="2"/>
+<text x="890" y="135" text-anchor="middle" font-family="Segoe UI,Arial" font-size="25" font-weight="700" fill="#ff006e">GONDI → HINDI</text>
+<text x="765" y="190" font-family="Segoe UI,Arial" font-size="17" fill="white">spBLEU</text>
+<rect x="845" y="173" width="0" height="21" rx="10" fill="url(#bar1)">
+<animate attributeName="width" from="0" to="96" dur="1.4s" fill="freeze"/>
+</rect>
+<text x="1010" y="190" text-anchor="end" font-family="Segoe UI,Arial" font-size="17" font-weight="700" fill="white">14.4320</text>
+<text x="765" y="245" font-family="Segoe UI,Arial" font-size="17" fill="white">ChrF++</text>
+<rect x="845" y="228" width="0" height="21" rx="10" fill="url(#bar2)">
+<animate attributeName="width" from="0" to="96" dur="1.7s" fill="freeze"/>
+</rect>
+<text x="1010" y="245" text-anchor="end" font-family="Segoe UI,Arial" font-size="17" font-weight="700" fill="white">28.8000</text>
+<text x="765" y="300" font-family="Segoe UI,Arial" font-size="17" fill="white">COMET</text>
+<rect x="845" y="283" width="0" height="21" rx="10" fill="url(#bar3)">
+<animate attributeName="width" from="0" to="138" dur="2s" fill="freeze"/>
+</rect>
+<text x="1010" y="300" text-anchor="end" font-family="Segoe UI,Arial" font-size="17" font-weight="700" fill="white">0.5808</text>
+<text x="550" y="415" text-anchor="middle" font-family="Segoe UI,Arial" font-size="16" fill="#adb5bd">
+500-step QLoRA • Same evaluation protocol • spBLEU • ChrF++ • COMET
+</text>
+</svg>
